@@ -1,0 +1,244 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0295/7964/0970/products/HFF0178_345x345@2x.jpg?v=1607577738);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  color: white;
+  font-family:Segoe Print;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0be08;
+  gap: 20rem;
+  padding: 1rem;
+  font-weight: bold;
+  position: fixed;
+  width: 100vw;
+}
+
+.result {
+  color: black;
+  font-weight: bold;
+}
+
+.active {
+  color: #452302;
+  text-decoration: none;
+}
+
+.undefined {
+  text-decoration: none;
+  color: red;
+}
+
+.title {
+  color: #fff0f0;
+  text-align: center;
+  padding: 8rem;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/60/57/33/1000_F_160573385_2kN4GqjU7omwwmF1IB0qP0dmgxMxC024.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: #cf8e02;
+  margin-top: 5rem;
+  height: 25rem;
+}
+
+.img-card {
+  margin-top: 1rem;
+  height: 260px;
+  width: 300px; 
+}
+
+.text-card {
+  color: #0a0a0af2;
+  height: 350px;
+  width: 275px;
+  font-size: 12px;
+  padding-bottom: 5rem;
+}
+
+.name-pizza {
+  margin-bottom: 10px;
+}
+
+.price {
+  text-align: center;
+}
+
+.btninfo {
+  padding: 0.4rem;
+  width: 6.5rem;
+  margin: 1rem;
+  color: #f38e09;
+  font-weight: bold;
+}
+
+.btnadd {
+  padding: 0.4rem;
+  width: 6.5rem;
+  margin: 1rem;
+  color: #f38e09;
+  font-weight: bold;
+}
+
+.container-images {
+margin-left: 5rem;
+}
+
+.image-desc {
+  display: flex;
+  height: 25rem;
+}
+
+
+
+.name-detail {
+  display: flex;
+}
+
+
+.detail-imag{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+
+.container-trolley {
+  text-align: center;
+  padding: 4rem;
+}
+
+.text-details{
+  margin-top: 5rem;
+}
+
+
+
+.container-details {
+    text-align: center;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  background-color:#cf8e02;
+  width: 50%;
+  margin-bottom: 2rem;
+
+}
+
+.container-name {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 2rem;
+  font-weight: lighter;
+
+}
+
+.container-desc {
+  display: flex;
+  width: 400px;
+  margin-top: 2rem;
+}
+
+.title-pizza {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.pizza-img {
+  width: 180px;
+  height: 150px;
+}
+
+.price-result {
+  margin: 0.5rem;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnmore {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #02ac02b3;
+  border-radius: 5px;
+}
+
+.btnrest {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #db0101b4;
+  border-radius: 5px;
+}
+
+.resultcart {
+  padding: 0.5rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.btnfinal {
+  text-align: center;
+  background-color: #039803c8;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
